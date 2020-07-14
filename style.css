@@ -1,0 +1,35 @@
+ body{
+    margin: 0; 
+    font-family: 'Mukta', sans-serif;
+ }
+ 
+ .pink{
+      color: mediumvioletred;
+ }
+ .half{
+       width: 40%;
+       float: left;
+       margin-left: 5%;
+       padding-left: 2%;
+       
+ }
+ .half img{
+          width: 100%;
+          
+ }
+ .first{
+               background-image: url("IMAGE/header-bg.png");
+               background-repeat: no-repeat;
+               
+ }
+ section{
+         height: 500px;
+ }
+ .about{
+        text-decoration: none;
+        background-image: linear-gradient(45deg,deeppink,mediumvioletred);
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+        font-weight: 700;
+ } 
