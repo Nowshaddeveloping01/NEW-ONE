@@ -20,8 +20,9 @@
  .first{
                background-image: url("IMAGE/header-bg.png");
                background-repeat: no-repeat;
-               
- }
+               background-size: cover;
+               background-position: center; 
+}
  section{
          height: 500px;
  }
@@ -32,4 +33,82 @@
         color: white;
         border-radius: 5px;
         font-weight: 700;
- } 
+ }
+ .bottom{
+       padding-top: 20%;
+ }
+ 
+ .top{
+       padding-top: 10%;
+       padding-left: 5%;
+ }
+ .second{
+       margin-top: 10%;
+       background-image: url("IMAGE/biography-bg.png");
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 800px;
+}
+.work{
+      text-align: center;
+      
+      font-size: 40px;
+      font-weight: 600;
+}
+.picture img{
+            width: 20%; 
+            margin-left: 5%;
+            padding-left: 2%;
+            
+}
+.picture{
+        margin-left: 18%;
+        margin-right: 8%;
+}
+.latest{    
+      background-image: url("IMAGE/latest-work-bg.png");
+      background-repeat: no-repeat;
+      background-size:100%;
+      background-position: center;
+}      
+.client{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+}
+h4{
+      text-align: center;
+}
+h6{
+   text-align: center;
+   
+}
+p{
+    text-align: center;  
+}
+.message{
+      text-decoration: none;
+      background-image: linear-gradient(45deg,deeppink,mediumvioletred);
+      padding: 5px 10px;
+      color: white;
+      border-radius: 5px;
+      font-weight: 700;
+      text-align: center;
+}
+.msg{
+      text-align: center;
+}
+.comment{
+      background-image: url("IMAGE/footer-bg.png");
+      background-repeat: no-repeat;
+      background-size:100%;
+      background-position: center;
+}
+footer{
+      text-align: center;
+      font-size: 2opx;
+}
+
+
+      
+
